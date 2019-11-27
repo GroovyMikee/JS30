@@ -9,8 +9,8 @@ body{
     justify-content: center;
     align-content: center;
     min-height: 100vh;
-    grid-template-columns: repeat(9, 140px);
-    grid-template-rows: minmax(40px, auto) repeat(1, 150px);
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-gap: 1rem;
 }
 
 .key {
@@ -25,4 +25,14 @@ body{
     color: white;
     background: rgba(0, 0, 0, 0.4);
     text-shadow: 0 0 5px black;
+}
+
+kbd {
+    font-size: 1.5rem;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: goldenrod;
+    box-shadow: 0 0 10px khaki;
 }
