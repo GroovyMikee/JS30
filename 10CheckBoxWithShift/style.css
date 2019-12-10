@@ -1,0 +1,38 @@
+html {
+    font-family: sans-serif;
+    background-color: yellow;
+}
+
+.inbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: whitesmoke;
+    max-width: 400px;
+    padding: 20px;
+    box-shadow: 10px 10px 0 rgba(0,0,0,0.1);
+    border-radius: 5px;
+}
+
+
+.item {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+.item:last-child {
+    border-bottom: 0;
+}
+
+p {
+    margin: 0;
+    padding: 20px;
+    transition: background 0.2s;
+    flex: 1;
+    border-left: 1px solid black;
+}
+
+input {
+    margin: 20px;
+}
