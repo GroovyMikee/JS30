@@ -1,6 +1,6 @@
 const pressed = []
-const secredCode = 'kingulka'
-console.log('wpisz "kingulka" kingulka :)')
+const secredCode = 'abc'
+console.log('wpisz "abc" :)')
 
 window.addEventListener('keyup', (e) => {
     pressed.push(e.key)
